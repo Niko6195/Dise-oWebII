@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Sergio Nikolas Angulo Sandoval</title>
+    
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        .skill-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+        
+        .img-certificado {
+            height: 350px;
+            object-fit: cover;
+            border-bottom: 3px solid #0d6efd;
+        }
+        
+        section {
+            scroll-margin-top: 70px;
+        }
+        
+        .hero-tecnologo {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                        url('imagenes/fondodigital.jfif') center/cover fixed;
+            min-height: 100vh;
+        }
+        
+        .navbar-logo {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .skill-card {
+            position: relative;
+        }
+
+        .skill-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="imagenes/iconopc.png" alt="Logo" class="navbar-logo">
+            Sergio Nikolas Angulo Sandoval
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certificados">Certificados</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="inicio" class="d-flex align-items-center hero-tecnologo">
+    <div class="container text-center text-white">
+        <h1 class="display-4 mb-3">Tecnólogo en Sistemas Informáticos</h1>
+        <p class="lead mb-4">Especializado en desarrollo web, diseño gráfico y ciberseguridad</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="#contacto" class="btn btn-primary btn-lg"><i class="fas fa-envelope"></i> Contacto</a>
+            <a href="#certificados" class="btn btn-outline-light btn-lg"><i class="fas fa-award"></i> Certificados</a>
+        </div>
+    </div>
+</section>
+
+<section id="habilidades" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Habilidades Técnicas</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 skill-card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h4><i class="fas fa-code"></i> Desarrollo</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <img src="imagenes/pythonlog3.svg" alt="Python" class="skill-icon">
+                                Python <span class="badge bg-info float-end">Avanzado</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="imagenes/htmllog.png" alt="HTML/CSS" class="skill-icon">
+                                HTML/CSS <span class="badge bg-success float-end">Intermedio</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="imagenes/mysql-logo.svg" alt="MySQL" class="skill-icon">
+                                MySQL <span class="badge bg-success float-end">Intermedio</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="imagenes/linuxlog.png" alt="Linux" class="skill-icon">
+                                Linux <span class="badge bg-info float-end">Avanzado</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-100 skill-card shadow">
+                    <div class="card-header bg-success text-white">
+                        <h4><i class="fas fa-palette"></i> Diseño & Multimedia</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <img src="imagenes/phlogo.png" alt="Photoshop" class="skill-icon">
+                                Adobe Photoshop <span class="badge bg-info float-end">Avanzado</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="imagenes/iluslogo.png" alt="Illustrator" class="skill-icon">
+                                Illustrator <span class="badge bg-info float-end">Avanzado</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="imagenes/aftlogo.png" alt="After Effects" class="skill-icon">
+                                After Effects <span class="badge bg-info float-end">Avanzado</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="imagenes/uxlog.png" alt="UI/UX" class="skill-icon">
+                                UI/UX <span class="badge bg-success float-end">Intermedio</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="certificados" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Certificados KLT</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+            <div class="col">
+                <div class="card h-100 shadow">
+                    <img src="imagenes/Certf1.png" class="card-img-top img-certificado" alt="Certificado Python Essentials">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Python Essentials</h5>
+                        <p class="text-muted">KLT Academy | 2023</p>
+                        <div class="badge bg-success">Programación</div>
+                        <div class="badge bg-primary">KLT Certificado</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow">
+                    <img src="imagenes/certf2.png" class="card-img-top img-certificado" alt="Certificado Digital Awareness">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Digital Awareness Program</h5>
+                        <p class="text-muted">KLT Academy | 2024</p>
+                        <div class="badge bg-warning">Ciberseguridad</div>
+                        <div class="badge bg-primary">KLT Certificado</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form class="shadow p-4 rounded bg-white">
+                    <div class="mb-3">
+                        <label class="form-label">Nombre completo</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mensaje</label>
+                        <textarea class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <div class="mb-3">
+            <a href="#" class="text-white mx-3"><i class="fab fa-github fa-2x"></i></a>
+            <a href="#" class="text-white mx-3"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#" class="text-white mx-3"><i class="bi bi-envelope"></i></a>
+        </div>
+        <p class="mb-0">&copy; 2025 Sergio Angulo.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
