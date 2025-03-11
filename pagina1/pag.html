@@ -39,25 +39,14 @@
             margin-right: 10px;
         }
 
-        /* Estilos para los GIFs */
-        .gif-left {
-            position: absolute;
-            left: -100px; /* Ajusta la posición según sea necesario */
-            top: 50%;
-            transform: translateY(-50%);
-            width: 80px; /* Ajusta el tamaño del GIF */
-        }
-
-        .gif-right {
-            position: absolute;
-            right: -100px; /* Ajusta la posición según sea necesario */
-            top: 50%;
-            transform: translateY(-50%);
-            width: 80px; /* Ajusta el tamaño del GIF */
-        }
-
         .skill-card {
             position: relative;
+        }
+
+        .skill-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -104,12 +93,23 @@
                         <h4><i class="fas fa-code"></i> Desarrollo</h4>
                     </div>
                     <div class="card-body">
-                        <img src="pythonlog.gif" alt="GIF Desarrollo" class="gif-left">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Python <span class="badge bg-info float-end">Avanzado</span></li>
-                            <li class="list-group-item">HTML/CSS <span class="badge bg-success float-end">Intermedio</span></li>
-                            <li class="list-group-item">MySQL <span class="badge bg-success float-end">Intermedio</span></li>
-                            <li class="list-group-item">Linux <span class="badge bg-info float-end">Avanzado</span></li>
+                            <li class="list-group-item">
+                                <img src="pythonlog3.svg" alt="Python" class="skill-icon">
+                                Python <span class="badge bg-info float-end">Avanzado</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="htmllog.png" alt="HTML/CSS" class="skill-icon">
+                                HTML/CSS <span class="badge bg-success float-end">Intermedio</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="mysql-logo.svg" alt="MySQL" class="skill-icon">
+                                MySQL <span class="badge bg-success float-end">Intermedio</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="linuxlog.png" alt="Linux" class="skill-icon">
+                                Linux <span class="badge bg-info float-end">Avanzado</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -121,12 +121,23 @@
                         <h4><i class="fas fa-palette"></i> Diseño & Multimedia</h4>
                     </div>
                     <div class="card-body">
-                        <img src="pslogo.gif" alt="GIF Diseño" class="gif-right">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Adobe Photoshop <span class="badge bg-info float-end">Avanzado</span></li>
-                            <li class="list-group-item">Illustrator <span class="badge bg-info float-end">Avanzado</span></li>
-                            <li class="list-group-item">After Effects <span class="badge bg-info float-end">Avanzado</span></li>
-                            <li class="list-group-item">UI/UX <span class="badge bg-success float-end">Intermedio</span></li>
+                            <li class="list-group-item">
+                                <img src="phlogo.png" alt="Photoshop" class="skill-icon">
+                                Adobe Photoshop <span class="badge bg-info float-end">Avanzado</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="iluslogo.png" alt="Illustrator" class="skill-icon">
+                                Illustrator <span class="badge bg-info float-end">Avanzado</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="aftlogo.png" alt="After Effects" class="skill-icon">
+                                After Effects <span class="badge bg-info float-end">Avanzado</span>
+                            </li>
+                            <li class="list-group-item">
+                                <img src="uxlog.png" alt="UI/UX" class="skill-icon">
+                                UI/UX <span class="badge bg-success float-end">Intermedio</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
